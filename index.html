@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Данные пользователя</legend>
+            <legend>Имя</legend>
+            <input type="text" id="nameid" required>
+            <legend>Фамилия</legend>
+            <input type="text" id="surnameid" required>
+            <legend>Пароль</legend>
+            <input type="password" id="passwordid" required>
+        </fieldset>
+        <fieldset>
+            <legend>Ваш пол</legend>
+            <div><input type="radio" name="check" id="nameid" class="radio1">
+            <label for="nameID">Мужской</label></div>
+            <div><input type="radio" name="check" id="surnameid" class="radio2">
+            <label for="surname">Женский</label></div>
+            </fieldset>
+        <fieldset>
+            <legend>Выберите еду</legend>
+            <div><input type="checkbox" name="pizza" id="pizzaid">
+            <label for="pizzaid">Пицца</label></div>
+            <div><input type="checkbox" name="pasta" id="pastaid">
+            <label for="pastaid">Паста</label></div>
+            <div><input type="checkbox" name="rolli" id="rolliid">
+            <label for="rolliid">Роллы</label></div>
+        </fieldset>
+        <fieldset>
+            <legend>Введите купон на скидку</legend>
+            <select name="skidka" id="skidkaid"><option value="1">Купон</option>
+            <option value="2">Купона нет
+            </select>
+        </fieldset>
+        <button type="submit">Заказать</button>
+    </form>
+</body>
+</html>
